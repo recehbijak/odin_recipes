@@ -1,5 +1,15 @@
-body {
+#cheesecake {
     background-color: #f5c647;
+    font-family: "Andika", sans-serif;
+}
+
+#cookie {
+    background-color: #3293e3;
+    font-family: "Andika", sans-serif;
+}
+
+#einspanner {
+    background-color: #34d963;
     font-family: "Andika", sans-serif;
 }
 
@@ -24,12 +34,30 @@ h2, h3 {
     margin: 20px auto;
     padding: 20px;
     border-radius: 15px;
+}
+
+#cheesecake .description,
+#cheesecake .steps {
     filter: drop-shadow(0 0 10px #b8922a)
 }
 
+#cookie .description,
+#cookie .steps {
+    filter: drop-shadow(0 0 10px #216ead)
+}
+
+#einspanner .description,
+#einspanner .steps {
+    filter: drop-shadow(0 0 10px #178035)
+}
+
 img {
-    display: inline-block;
-    margin: 10px auto;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 footer {
