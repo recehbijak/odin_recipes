@@ -17,4 +17,5 @@ h1 {
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 15px;
+    filter: drop-shadow(0 0 10px #a64e2b)
 }
