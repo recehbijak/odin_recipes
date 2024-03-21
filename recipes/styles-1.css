@@ -1,0 +1,37 @@
+body {
+    background-color: #f5c647;
+    font-family: "Andika", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Wendy One"; serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2, h3 {
+    font-size: 25px;
+}
+
+.description, .steps {
+    width: 70vw;
+    max-width: 1000px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 10px #b8922a)
+}
+
+img {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+footer {
+    color: white;
+}
